@@ -17,7 +17,7 @@ export default () => {
                 >
                 <ScrollListBoxComp>
                    {
-                       dataList && dataList.map((item, index) => {
+                       dataList && [...dataList, ...dataList].map((item, index) => {
                            return <JobListComponent key={index} data={item} />
                        })
                    }
