@@ -1,0 +1,21 @@
+.li-warp {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+    font-size: 14px;
+}
+.li-warp > a {
+    display: inline-block;
+    width: 400px;
+    margin-right: 80px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: rgb(60, 153, 216);
+}
+
+.li-warp  span:nth-child(3){
+    width: 100px;
+    text-align: right;
+}

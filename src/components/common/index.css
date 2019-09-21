@@ -1,0 +1,28 @@
+.card {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 15px 0 rgba(31,56,88,.08);
+    border-radius: 3px;
+    overflow: hidden;
+}
+.card > .card-header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(31,56,88,.06);
+    background: #fff;
+    padding: 0 14px;
+    font-size: 14px;
+    color: #000;
+}
+.card > .card-header > .card-header-extra, .card > .card-header a {
+    font-size: 14px !important;
+    color: rgba(31,56,88,.6) !important;
+    cursor: pointer !important;
+}
+.card > .card-content {
+    overflow: hidden;
+    height: 250px;
+    position: relative;
+}
